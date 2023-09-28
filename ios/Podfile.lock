@@ -1,0 +1,23 @@
+PODS:
+  - Flutter (1.0.0)
+  - Highcharts (11.1.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - Highcharts (~> 11.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Highcharts
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Highcharts: ebe8a98b9af3c1f653068fbfb49c71e389860547
+
+PODFILE CHECKSUM: 562b1a3ff0abfa794cce1e71574eb325c2e7f3fb
+
+COCOAPODS: 1.12.1
