@@ -80,7 +80,7 @@ class FLNativeView: NSObject, FlutterPlatformView {
 
 
     func getSankeyDiagramView(parentView : UIView) -> UIView{
- let chartView = HIChartView(frame: view.bounds)
+ let chartView = HIChartView(frame: parentView.bounds)
         chartView.plugins = ["sankey"]
         let options = HIOptions()
         let title = HITitle()
@@ -143,10 +143,7 @@ class FLNativeView: NSObject, FlutterPlatformView {
           ] as [Any]
         options.series = [sankey]
         chartView.options = options
+        return chartView;
     }
 }
-
-
-
-
 
