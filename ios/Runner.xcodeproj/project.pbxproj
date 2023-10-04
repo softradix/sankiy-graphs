@@ -17,7 +17,7 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		C83B95412AC59874002D5DBB /* FLPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B95402AC59874002D5DBB /* FLPlugin.swift */; };
-		C83B95432AC59AE2002D5DBB /* FLNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B95422AC59AE2002D5DBB /* FLNativeView.swift */; };
+		D9B6398D2ACD85A500A3F983 /* FLNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B6398C2ACD85A500A3F983 /* FLNativeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A127DB63EC89BE9A68B8E6A7 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		C83B95402AC59874002D5DBB /* FLPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLPlugin.swift; sourceTree = "<group>"; };
-		C83B95422AC59AE2002D5DBB /* FLNativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FLNativeView.swift; path = ../../../../Downloads/sankey_diagram_project/ios/Runner/FLNativeView.swift; sourceTree = "<group>"; };
+		D9B6398C2ACD85A500A3F983 /* FLNativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLNativeView.swift; sourceTree = "<group>"; };
 		EB43245FF4843621F064D7D8 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		F94C5FD5A861DAA61D23580C /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,7 +134,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				C83B95422AC59AE2002D5DBB /* FLNativeView.swift */,
+				D9B6398C2ACD85A500A3F983 /* FLNativeView.swift */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				C83B95402AC59874002D5DBB /* FLPlugin.swift */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
@@ -383,7 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
-				C83B95432AC59AE2002D5DBB /* FLNativeView.swift in Sources */,
+				D9B6398D2ACD85A500A3F983 /* FLNativeView.swift in Sources */,
 				C83B95412AC59874002D5DBB /* FLPlugin.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
