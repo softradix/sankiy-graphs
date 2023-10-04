@@ -112,14 +112,7 @@ class _SankeyDiagramState extends State<SankeyDiagram> {
           ..create();
       },
     );
-    /*
-            // keyboard handling and accessibility features might not work /.
-             AndroidView(
-                   viewType: viewType,
-                   layoutDirection: TextDirection.ltr,
-                   creationParams: creationParams,
-                   creationParamsCodec: const StandardMessageCodec(),
-                 )*/
+
   }
 }
 
