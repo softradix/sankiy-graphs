@@ -141,7 +141,7 @@ class FLNativeView: NSObject, FlutterPlatformView {
 //        chartView.textAlignment = .center
 //        nativeLabel.frame = CGRect(x: 0, y: 0, width: 180, height: 48.0)
         _view.addSubview(view)
-    
+
     }
 }
 
